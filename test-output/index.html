@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Filip\eclipse-workspace\PYP\myFilesDeleteFile.xml</span>
+                    <span>C:\Users\fjakovlevski\workspace\PYP\myFilesUploadFile.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.MyFilesDeleteFiles" hash-for-method="deleteFilesOnIcon">deleteFilesOnIcon</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.MyFilesDeleteFiles" hash-for-method="deleteFilesOnMedia">deleteFilesOnMedia</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.Login" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.Login" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.MyFilesAddFiles" hash-for-method="uploadMyDevice">uploadMyDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pyp.MyFilesAddFiles" hash-for-method="uploadMyDevice">uploadMyDevice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -140,26 +145,33 @@
                   <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pyp.MyFilesDeleteFiles</span>
+              <span class="class-name">pyp.MyFilesAddFiles</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteFilesOnIcon">
-                  </a> <!-- deleteFilesOnIcon -->
-                  <span class="method-name">deleteFilesOnIcon</span>
+                  <a name="uploadMyDevice">
+                  </a> <!-- uploadMyDevice -->
+                  <span class="method-name">uploadMyDevice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteFilesOnMedia">
-                  </a> <!-- deleteFilesOnMedia -->
-                  <span class="method-name">deleteFilesOnMedia</span>
+                  <a name="uploadMyDevice">
+                  </a> <!-- uploadMyDevice -->
+                  <span class="method-name">uploadMyDevice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,19 +179,25 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Filip\eclipse-workspace\PYP\myFilesDeleteFile.xml</span>
+            <span class="header-content">C:\Users\fjakovlevski\workspace\PYP\myFilesUploadFile.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;DELETE FILES&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UPLOAD FILES&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pyp.Login&quot;/&gt;
-      &lt;class name=&quot;pyp.MyFilesDeleteFiles&quot;/&gt;
+      &lt;class name=&quot;pyp.MyFilesAddFiles&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- DELETE FILES --&gt;
+  &lt;/test&gt; &lt;!-- UPLOAD FILES --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UPLOAD FILES1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pyp.Login&quot;/&gt;
+      &lt;class name=&quot;pyp.MyFilesAddFiles&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UPLOAD FILES1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,7 +209,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">DELETE FILES (2 classes)</span>
+                <span class="test-name">UPLOAD FILES (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">UPLOAD FILES1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,24 +238,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'pyp.Login')
-data.setCell(0, 3, 17872);
+data.setCell(0, 1, 'uploadMyDevice')
+data.setCell(0, 2, 'pyp.MyFilesAddFiles')
+data.setCell(0, 3, 47088);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteFilesOnIcon')
-data.setCell(1, 2, 'pyp.MyFilesDeleteFiles')
-data.setCell(1, 3, 9107);
+data.setCell(1, 1, 'uploadMyDevice')
+data.setCell(1, 2, 'pyp.MyFilesAddFiles')
+data.setCell(1, 3, 47004);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'deleteFilesOnMedia')
-data.setCell(2, 2, 'pyp.MyFilesDeleteFiles')
-data.setCell(2, 3, 6286);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'pyp.Login')
+data.setCell(2, 3, 7922);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'pyp.Login')
+data.setCell(3, 3, 7429);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -267,18 +292,32 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">pyp.MyFilesDeleteFiles</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">pyp.MyFilesAddFiles</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deleteFilesOnIcon</span>
-                <span class="method-start">17947 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">deleteFilesOnMedia</span>
-                <span class="method-start">27062 ms</span>
+                <span class="method-name">uploadMyDevice</span>
+                <span class="method-start">7431 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">33358 ms</span>
+                <span class="method-start">54521 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pyp.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">55153 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pyp.MyFilesAddFiles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">uploadMyDevice</span>
+                <span class="method-start">63076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">110080 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

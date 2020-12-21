@@ -4,7 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import pageObjects.MyFilesPage;
 import resources.Base;
 
@@ -20,6 +19,7 @@ public class MyFilesAddFiles extends Base{
 		MyFilesPage mf = new MyFilesPage(driver);
 		if("My Files".equals(mf.titleMyFiles().getText())){
 			log.info("My Files Page successfully opened");
+			log.info("Pre upload-a na " +mf.allFilesTab().getText()+ " prikazano je " +mf.mediaBody().size()+ " fajlova");
 		}
 		else
 			log.error("My Files Page is not opened");

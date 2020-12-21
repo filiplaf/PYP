@@ -3,12 +3,271 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="pyp.TemplatesSearchBar">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchBarByKeyword"/>
+          <include name="validationIfVideoDontExistAfterSearch"/>
+        </methods>
+      </class> <!-- pyp.TemplatesSearchBar -->
+      <class name="pyp.RegistrationValidationChecks">
+        <methods>
+          <include name="validationPasswordLenght"/>
+          <include name="validationAllFieldsBlank"/>
+          <include name="teardown"/>
+          <include name="validationWhereUserExist"/>
+          <include name="validationEmailWrongFormat"/>
+          <include name="navigateToRegistrationPage"/>
+          <include name="validationPasswordDoesntMatch"/>
+        </methods>
+      </class> <!-- pyp.RegistrationValidationChecks -->
+      <class name="pyp.GetInspiredRandomAllFilters">
+        <methods>
+          <include name="RandomFilters"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredRandomAllFilters -->
+      <class name="pyp.TemplatesCategories">
+        <methods>
+          <include name="categories"/>
+          <include name="teardown"/>
+          <include name="categoriesWithFilterNotFound"/>
+        </methods>
+      </class> <!-- pyp.TemplatesCategories -->
+      <class name="pyp.MyProfileDeleteAccount">
+        <methods>
+          <include name="teardown"/>
+          <include name="myDeleteProfile"/>
+        </methods>
+      </class> <!-- pyp.MyProfileDeleteAccount -->
+      <class name="pyp.MyProfilePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="myProfileNewPassword"/>
+          <include name="myProfileBackPasswordAndLogin"/>
+        </methods>
+      </class> <!-- pyp.MyProfilePassword -->
+      <class name="pyp.GetInspiredDurationFilter">
+        <methods>
+          <include name="durationFilter"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredDurationFilter -->
+      <class name="pyp.GetInspiredMoodFilter">
+        <methods>
+          <include name="moodFilter"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredMoodFilter -->
+      <class name="pyp.ForgotPassword">
+        <methods>
+          <include name="forgotPasswordNavigation"/>
+          <include name="validationEmailWrongFormat"/>
+          <include name="resetPasswordSuccess"/>
+          <include name="validationPasswordsDontMatch"/>
+          <include name="teardown"/>
+          <include name="validationFieldsAreBlank"/>
+          <include name="resetPasswordMail"/>
+        </methods>
+      </class> <!-- pyp.ForgotPassword -->
+      <class name="pyp.MyProfileEmailNotification">
+        <methods>
+          <include name="emailNotification"/>
+          <include name="myProfile"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.MyProfileEmailNotification -->
+      <class name="pyp.MyFilesFunctionalities">
+        <methods>
+          <include name="downloadMediaOption"/>
+          <include name="teardown"/>
+          <include name="renameMediaOption"/>
+          <include name="viewMediaOption"/>
+        </methods>
+      </class> <!-- pyp.MyFilesFunctionalities -->
+      <class name="pyp.GetInspiredNewestAndPopularFilter">
+        <methods>
+          <include name="teardown"/>
+          <include name="getInspiredNewestAndPopular"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredNewestAndPopularFilter -->
+      <class name="pyp.Login_logout">
+        <methods>
+          <include name="loginAndLogout"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.Login_logout -->
+      <class name="pyp.MyProfileAccount">
+        <methods>
+          <include name="myProfile"/>
+          <include name="uploadPicture"/>
+          <include name="uploadPicture1"/>
+          <include name="deleteAvatarPicture"/>
+          <include name="updateName"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.MyProfileAccount -->
+      <class name="pyp.MyFavoritesVideoFormat">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkVideoFormat"/>
+          <include name="checkMediaOnPage"/>
+        </methods>
+      </class> <!-- pyp.MyFavoritesVideoFormat -->
+      <class name="pyp.GetInspiredSearchBar">
+        <methods>
+          <include name="loadMoreTemplates"/>
+          <include name="getInspiredSearch"/>
+          <include name="teardown"/>
+          <include name="getInspiredBadSearch"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredSearchBar -->
+      <class name="pyp.MyFilesSortFunctionalities">
+        <methods>
+          <include name="teardown"/>
+          <include name="sortSizeFunctionality"/>
+          <include name="sortNameFunctionality"/>
+          <include name="sortDateFunctionality"/>
+        </methods>
+      </class> <!-- pyp.MyFilesSortFunctionalities -->
+      <class name="pyp.TemplatesRandomAllFilters">
+        <methods>
+          <include name="RandomFilters"/>
+        </methods>
+      </class> <!-- pyp.TemplatesRandomAllFilters -->
+      <class name="pyp.GetInspiredNumberOfPhotosFilter">
+        <methods>
+          <include name="numberOfPhotosFilter"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredNumberOfPhotosFilter -->
+      <class name="pyp.TemplatesMoodFilter">
+        <methods>
+          <include name="moodFilter"/>
+        </methods>
+      </class> <!-- pyp.TemplatesMoodFilter -->
+      <class name="pyp.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- pyp.Login -->
+      <class name="pyp.TerminateBrowser">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.TerminateBrowser -->
+      <class name="pyp.MyFavoritesSearchBar">
+        <methods>
+          <include name="searchMedia"/>
+          <include name="checkMediaOnPage"/>
+          <include name="teardown"/>
+          <include name="wrongSearchMedia"/>
+        </methods>
+      </class> <!-- pyp.MyFavoritesSearchBar -->
+      <class name="pyp.TemplatesSpeedsFilter">
+        <methods>
+          <include name="speedsFilter"/>
+        </methods>
+      </class> <!-- pyp.TemplatesSpeedsFilter -->
+      <class name="pyp.MyFilesSearchBar">
+        <methods>
+          <include name="teardown"/>
+          <include name="wrongSearchMedia"/>
+          <include name="searchMedia"/>
+        </methods>
+      </class> <!-- pyp.MyFilesSearchBar -->
+      <class name="pyp.MyProfilePasswordValidationChecks">
+        <methods>
+          <include name="validationAllFieldsBlank"/>
+          <include name="passwordDoesntMatch"/>
+          <include name="teardown"/>
+          <include name="newPasswordWrongLenght"/>
+          <include name="myProfilePassword"/>
+          <include name="oldPasswordWrongValidation"/>
+        </methods>
+      </class> <!-- pyp.MyProfilePasswordValidationChecks -->
+      <class name="pyp.RegistrationLinksCheck">
+        <methods>
+          <include name="navigateToRegistrationPage"/>
+          <include name="teardown"/>
+          <include name="linksCheck"/>
+        </methods>
+      </class> <!-- pyp.RegistrationLinksCheck -->
+      <class name="pyp.GetInspiredSpeedsFilter">
+        <methods>
+          <include name="speedsFilter"/>
+        </methods>
+      </class> <!-- pyp.GetInspiredSpeedsFilter -->
+      <class name="pyp.LoginValidationChecks">
+        <methods>
+          <include name="validationWrongCredetials"/>
+          <include name="validationPasswordLenght"/>
+          <include name="validationEmailWrongFormat"/>
+          <include name="teardown"/>
+          <include name="validationAllFieldsBlank"/>
+          <include name="navigateToRegistrationPage"/>
+        </methods>
+      </class> <!-- pyp.LoginValidationChecks -->
+      <class name="pyp.LoginPageLinksCheck">
+        <methods>
+          <include name="linksCheck"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.LoginPageLinksCheck -->
+      <class name="pyp.TemplatesDurationFilter">
+        <methods>
+          <include name="durationFilter"/>
+        </methods>
+      </class> <!-- pyp.TemplatesDurationFilter -->
+      <class name="pyp.Registration">
+        <methods>
+          <include name="registration"/>
+          <include name="teardown"/>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- pyp.Registration -->
+      <class name="pyp.TemplatesNumberOfPhotosFilter">
+        <methods>
+          <include name="numberOfPhotosFilter"/>
+        </methods>
+      </class> <!-- pyp.TemplatesNumberOfPhotosFilter -->
+      <class name="pyp.ForgotPasswordValidationChecks">
+        <methods>
+          <include name="validationEmailFieldBlank"/>
+          <include name="forgotPasswordNavigation"/>
+          <include name="validationEmailDontExist"/>
+          <include name="teardown"/>
+          <include name="validationEmailWrongFormat"/>
+        </methods>
+      </class> <!-- pyp.ForgotPasswordValidationChecks -->
+      <class name="pyp.MyFilesAddFiles">
+        <methods>
+          <include name="uploadMyDevice"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.MyFilesAddFiles -->
+      <class name="pyp.MyFilesDeleteFiles">
+        <methods>
+          <include name="deleteFilesOnIcon"/>
+          <include name="deleteFilesOnMedia"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.MyFilesDeleteFiles -->
+      <class name="pyp.MyFilesAddFilesFromStock">
+        <methods>
+          <include name="uploadStock"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pyp.MyFilesAddFilesFromStock -->
       <class name="pyp.TemplatesVideoFormat">
         <methods>
           <include name="teardown"/>
           <include name="checkVideoFormat"/>
         </methods>
       </class> <!-- pyp.TemplatesVideoFormat -->
+      <class name="pyp.MyFavoritesPreview">
+        <methods>
+          <include name="deleteAllFavorites"/>
+          <include name="teardown"/>
+          <include name="myFavoritesPreview"/>
+        </methods>
+      </class> <!-- pyp.MyFavoritesPreview -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

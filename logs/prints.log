@@ -2823,3 +2823,94 @@ Try adjusting your search to find what you're looking for
 20/Dec/2020 20:55:53,861- MyFilesDeleteFiles: Nakon brisanja fajla ima 13 fajlova
 20/Dec/2020 20:55:53,923- MyFilesDeleteFiles: All files (13)
 20/Dec/2020 20:55:53,924- MyFilesDeleteFiles: ********************************************************************************
+21/Dec/2020 13:26:20,562- Login_logout: Korisnik nije ulogovan
+21/Dec/2020 13:26:24,477- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:26:24,478- Login_logout: *********************************************************************************************
+21/Dec/2020 13:26:59,381- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:26:59,589- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:26:59,589- Login_logout: *********************************************************************************************
+21/Dec/2020 13:27:24,402- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:27:24,616- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:27:24,616- Login_logout: *********************************************************************************************
+21/Dec/2020 13:27:47,010- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:27:47,220- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:27:47,220- Login_logout: *********************************************************************************************
+21/Dec/2020 13:28:23,489- Login: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:28:25,683- GetInspiredDurationFilter: Before clicking on duration filter we have 16 displayed videos
+21/Dec/2020 13:28:29,956- GetInspiredDurationFilter: No results after selecting first option 'Short <15s' 
+21/Dec/2020 13:28:43,262- GetInspiredDurationFilter: After clicking Medium 15-30s option 16 videos are displayed
+21/Dec/2020 13:28:46,482- GetInspiredDurationFilter: No results after selecting third option 'Long >30s' 
+21/Dec/2020 13:28:46,626- GetInspiredDurationFilter: *********************************************************************
+21/Dec/2020 13:28:48,440- GetInspiredNumberOfPhotosFilter: Before clicking on number of photos filter we have 16 displayed videos
+21/Dec/2020 13:29:02,767- GetInspiredNumberOfPhotosFilter: After clicking <10 option 16 videos are displayed
+21/Dec/2020 13:29:07,370- GetInspiredNumberOfPhotosFilter: No results after selecting second option '10-20' 
+21/Dec/2020 13:29:10,674- GetInspiredNumberOfPhotosFilter: No results after selecting third option '>20' 
+21/Dec/2020 13:29:10,775- GetInspiredNumberOfPhotosFilter: *********************************************************************
+21/Dec/2020 13:29:12,473- GetInspiredMoodFilter: Before clicking on mood filter we have 16 displayed videos
+21/Dec/2020 13:29:16,723- GetInspiredMoodFilter: No results after selecting first mood option possimus
+21/Dec/2020 13:29:30,065- GetInspiredMoodFilter: After clicking deleniti option 5 videos are displayed
+21/Dec/2020 13:29:43,381- GetInspiredMoodFilter: After clicking incidunt option 16 videos are displayed
+21/Dec/2020 13:29:43,488- GetInspiredMoodFilter: *********************************************************************
+21/Dec/2020 13:29:45,347- GetInspiredSpeedsFilter: Before clicking on speeds filter we have 16 displayed videos
+21/Dec/2020 13:29:59,655- GetInspiredSpeedsFilter: After clicking Fast option 16 videos are displayed
+21/Dec/2020 13:30:14,843- GetInspiredSpeedsFilter: After clicking Normal option 5 videos are displayed
+21/Dec/2020 13:30:28,053- GetInspiredSpeedsFilter: After clicking Slow option 5 videos are displayed
+21/Dec/2020 13:30:29,974- GetInspiredRandomAllFilters: Before clicking on filters we have: 16 videos
+21/Dec/2020 13:30:32,119- GetInspiredRandomAllFilters: Long (>30s) opcija je izabrana
+21/Dec/2020 13:30:32,271- GetInspiredRandomAllFilters: < 10 opcija je izabrana
+21/Dec/2020 13:30:32,387- GetInspiredRandomAllFilters: corporis opcija je izabrana
+21/Dec/2020 13:30:32,513- GetInspiredRandomAllFilters: Normal opcija je izabrana
+21/Dec/2020 13:30:33,302- GetInspiredRandomAllFilters: No results after selecting this filters
+21/Dec/2020 13:30:33,302- GetInspiredRandomAllFilters: ******************************************************************************************
+21/Dec/2020 13:34:51,816- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:34:52,031- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:34:52,032- Login_logout: *********************************************************************************************
+21/Dec/2020 13:37:06,819- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:37:07,029- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:37:07,029- Login_logout: *********************************************************************************************
+21/Dec/2020 13:38:24,234- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:38:24,455- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:38:24,455- Login_logout: *********************************************************************************************
+21/Dec/2020 13:41:17,804- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 13:41:18,021- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 13:41:18,021- Login_logout: *********************************************************************************************
+21/Dec/2020 13:41:38,559- ForgotPassword: Forgot password page is opened
+21/Dec/2020 13:41:41,652- ForgotPassword: Instructions to reset your password have been sent to you. Please check your email. If you still don’t see it, please check your spam folder before getting in touch!
+21/Dec/2020 14:02:09,374- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 14:02:09,585- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:02:09,585- Login_logout: *********************************************************************************************
+21/Dec/2020 14:04:15,064- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 14:04:15,275- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:04:15,275- Login_logout: *********************************************************************************************
+21/Dec/2020 14:41:55,597- Login_logout: Korisnik nije ulogovan
+21/Dec/2020 14:41:59,587- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:41:59,587- Login_logout: *********************************************************************************************
+21/Dec/2020 14:42:26,004- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 14:42:26,260- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:42:26,260- Login_logout: *********************************************************************************************
+21/Dec/2020 14:45:33,780- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 14:45:34,009- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:45:34,010- Login_logout: *********************************************************************************************
+21/Dec/2020 14:46:52,225- Login_logout: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 14:46:52,445- Login_logout: Successfully logged out and login page is displayed
+21/Dec/2020 14:46:52,446- Login_logout: *********************************************************************************************
+21/Dec/2020 18:14:25,975- Login: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 18:14:28,170- MyFilesAddFiles: My Files Page successfully opened
+21/Dec/2020 18:14:48,498- MyFilesAddFiles: Media is uploaded
+21/Dec/2020 18:14:48,537- MyFilesAddFiles: Trenutno na All files (44) prikazano je 18 fajlova
+21/Dec/2020 18:15:10,831- MyFilesAddFiles: No more load files button
+21/Dec/2020 18:15:10,856- MyFilesAddFiles: Trenutno na All files (44) prikazano je 44 fajlova
+21/Dec/2020 18:15:11,963- MyFilesAddFiles: Trenutno na Image (32) prikazano je 18 fajlova
+21/Dec/2020 18:15:13,046- MyFilesAddFiles: Trenutno na Music (12) prikazano je 12 fajlova
+21/Dec/2020 18:15:13,069- MyFilesAddFiles: Trenutno zauzece prostora je: Storage: 44.26MB of 512MB used
+21/Dec/2020 18:15:13,069- MyFilesAddFiles: *************************************************************************
+21/Dec/2020 18:15:21,625- Login: Korisnik sa emailom filip@mailinator.com je uspesno ulogovan!
+21/Dec/2020 18:15:23,801- MyFilesAddFiles: My Files Page successfully opened
+21/Dec/2020 18:15:44,119- MyFilesAddFiles: Media is uploaded
+21/Dec/2020 18:15:44,153- MyFilesAddFiles: Trenutno na All files (48) prikazano je 18 fajlova
+21/Dec/2020 18:16:06,378- MyFilesAddFiles: No more load files button
+21/Dec/2020 18:16:06,422- MyFilesAddFiles: Trenutno na All files (48) prikazano je 48 fajlova
+21/Dec/2020 18:16:07,520- MyFilesAddFiles: Trenutno na Image (35) prikazano je 18 fajlova
+21/Dec/2020 18:16:08,604- MyFilesAddFiles: Trenutno na Music (13) prikazano je 13 fajlova
+21/Dec/2020 18:16:08,629- MyFilesAddFiles: Trenutno zauzece prostora je: Storage: 47.62MB of 512MB used
+21/Dec/2020 18:16:08,630- MyFilesAddFiles: *************************************************************************

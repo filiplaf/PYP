@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="VIEW,RENAME,DOWNLOAD FILES(failed)">
+  <test name="FORGOT PASSWORD(failed)">
     <classes>
-      <class name="pyp.MyFilesFunctionalities">
+      <class name="pyp.ForgotPassword">
         <methods>
-          <include name="downloadMediaOption"/>
+          <include name="validationEmailWrongFormat"/>
+          <include name="resetPasswordSuccess"/>
+          <include name="validationPasswordsDontMatch"/>
+          <include name="teardown"/>
+          <include name="validationFieldsAreBlank"/>
+          <include name="resetPasswordMail"/>
         </methods>
-      </class> <!-- pyp.MyFilesFunctionalities -->
+      </class> <!-- pyp.ForgotPassword -->
     </classes>
-  </test> <!-- VIEW,RENAME,DOWNLOAD FILES(failed) -->
+  </test> <!-- FORGOT PASSWORD(failed) -->
 </suite> <!-- Failed suite [Suite] -->

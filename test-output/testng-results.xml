@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35023" started-at="2020-12-20T19:55:20Z" finished-at="2020-12-20T19:55:55Z">
+  <suite name="Suite" duration-ms="110721" started-at="2020-12-21T17:14:18Z" finished-at="2020-12-21T17:16:09Z">
     <groups>
     </groups>
-    <test name="DELETE FILES" duration-ms="35023" started-at="2020-12-20T19:55:20Z" finished-at="2020-12-20T19:55:55Z">
-      <class name="pyp.MyFilesDeleteFiles">
-        <test-method status="PASS" signature="deleteFilesOnIcon()[pri:1, instance:pyp.MyFilesDeleteFiles@2adc1e84]" name="deleteFilesOnIcon" duration-ms="9107" started-at="2020-12-20T20:55:38Z" finished-at="2020-12-20T20:55:47Z">
+    <test name="UPLOAD FILES" duration-ms="55159" started-at="2020-12-21T17:14:18Z" finished-at="2020-12-21T17:15:13Z">
+      <class name="pyp.MyFilesAddFiles">
+        <test-method status="PASS" signature="uploadMyDevice()[pri:0, instance:pyp.MyFilesAddFiles@28dacf31]" name="uploadMyDevice" duration-ms="47088" started-at="2020-12-21T18:14:25Z" finished-at="2020-12-21T18:15:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteFilesOnIcon -->
-        <test-method status="PASS" signature="deleteFilesOnMedia()[pri:1, instance:pyp.MyFilesDeleteFiles@2adc1e84]" name="deleteFilesOnMedia" duration-ms="6286" started-at="2020-12-20T20:55:47Z" finished-at="2020-12-20T20:55:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteFilesOnMedia -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:pyp.MyFilesDeleteFiles@2adc1e84]" name="teardown" is-config="true" duration-ms="1436" started-at="2020-12-20T20:55:53Z" finished-at="2020-12-20T20:55:55Z">
+        </test-method> <!-- uploadMyDevice -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:pyp.MyFilesAddFiles@28dacf31]" name="teardown" is-config="true" duration-ms="617" started-at="2020-12-21T18:15:13Z" finished-at="2020-12-21T18:15:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- pyp.MyFilesDeleteFiles -->
+      </class> <!-- pyp.MyFilesAddFiles -->
       <class name="pyp.Login">
-        <test-method status="PASS" signature="login()[pri:0, instance:pyp.Login@1c788d08]" name="login" duration-ms="17872" started-at="2020-12-20T20:55:20Z" finished-at="2020-12-20T20:55:38Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:pyp.Login@78bd02c8]" name="login" duration-ms="7429" started-at="2020-12-21T18:14:18Z" finished-at="2020-12-21T18:14:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- pyp.Login -->
-    </test> <!-- DELETE FILES -->
+    </test> <!-- UPLOAD FILES -->
+    <test name="UPLOAD FILES1" duration-ms="55548" started-at="2020-12-21T17:15:13Z" finished-at="2020-12-21T17:16:09Z">
+      <class name="pyp.MyFilesAddFiles">
+        <test-method status="PASS" signature="uploadMyDevice()[pri:0, instance:pyp.MyFilesAddFiles@2f61de04]" name="uploadMyDevice" duration-ms="47004" started-at="2020-12-21T18:15:21Z" finished-at="2020-12-21T18:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadMyDevice -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:pyp.MyFilesAddFiles@2f61de04]" name="teardown" is-config="true" duration-ms="620" started-at="2020-12-21T18:16:08Z" finished-at="2020-12-21T18:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pyp.MyFilesAddFiles -->
+      <class name="pyp.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:pyp.Login@56b751b1]" name="login" duration-ms="7922" started-at="2020-12-21T18:15:13Z" finished-at="2020-12-21T18:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- pyp.Login -->
+    </test> <!-- UPLOAD FILES1 -->
   </suite> <!-- Suite -->
 </testng-results>
